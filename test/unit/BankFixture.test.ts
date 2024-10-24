@@ -24,7 +24,7 @@ describe('Test Bank contract', function() {
         await transaction.wait()
         return { bank, owner, addr1, addr2 };
     }
-//Test
+    //Test
     describe('Initialization', function() {
         beforeEach(async function() {
             ({ bank, owner, addr1, addr2 } = await loadFixture(deployBankFixture));
